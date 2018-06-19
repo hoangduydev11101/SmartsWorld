@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:id="@+id/frg_Noibat"
+    tools:context="com.lehoangduy.smartworld.HomePage.PageOne">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:id="@+id/progresssBarNB"
+        android:indeterminate="false"
+        />
+    <TextView
+        android:gravity="center_horizontal"
+        android:visibility="invisible"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:id="@+id/txtInternetNB"
+        android:textColor="#000"
+        android:text="Chưa kết nối internet, chạm để thử lại!"
+        />
+    <ImageButton
+        android:visibility="invisible"
+        android:layout_marginTop="85sp"
+        android:id="@+id/btnReloadPageNB"
+        android:layout_width="120sp"
+        android:layout_height="120sp"
+        android:layout_gravity="center"
+        android:src="@drawable/reload"
+        android:background="@null"
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <GridView
+            android:scrollbars="none"
+            android:layout_marginBottom="55sp"
+            android:layout_marginTop="5sp"
+            android:gravity="center_horizontal"
+            android:id="@+id/gridViewSanPhamMoi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:horizontalSpacing="5dp"
+            android:numColumns="2"
+            android:padding="5sp"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="30dp"/>
+
+    </FrameLayout>
+
+</FrameLayout>

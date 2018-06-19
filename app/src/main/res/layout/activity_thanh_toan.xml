@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_thanh_toan"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.lehoangduy.smartworld.Activity.ThanhToan">
+
+    <ListView
+        android:scrollbars="none"
+        android:id="@+id/lvDonHang"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="110sp"
+        >
+    </ListView>
+    <LinearLayout
+        android:layout_marginRight="5sp"
+        android:layout_marginLeft="5sp"
+        android:background="@drawable/shape_button"
+        android:layout_below="@+id/lvDonHang"
+        android:id="@+id/lnTongTien"
+        android:layout_marginTop="-110sp"
+        android:layout_width="match_parent"
+        android:layout_height="50sp">
+        <TextView
+            android:layout_marginLeft="10sp"
+            android:textColor="#ff00"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:layout_width="110sp"
+            android:text="Tổng tiền: "
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="22sp"
+            android:textColor="#ff00"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/txtTongTien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:layout_below="@+id/lnTongTien"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:background="#fab70e"
+        android:text="Đặt hàng"
+        android:id="@+id/btnThanhToanDH"
+        android:layout_marginTop="-1sp"
+        android:layout_width="match_parent"
+        android:layout_height="60sp" />
+</RelativeLayout>

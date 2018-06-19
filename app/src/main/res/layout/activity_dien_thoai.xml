@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_danh_muc_san_pham"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.lehoangduy.smartworld.Activity.DanhMucSanPham">
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:id="@+id/txtInternetPL"
+        android:textColor="#000"
+        android:text="Chưa kết nối internet, chạm để thử lại!"
+        />
+    <ImageButton
+        android:layout_below="@+id/txtInternetPL"
+        android:id="@+id/btnReload"
+        android:visibility="invisible"
+        android:layout_width="120sp"
+        android:layout_height="120sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/reload"
+        android:background="@null"
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <GridView
+            android:columnWidth="90sp"
+            android:stretchMode="columnWidth"
+            android:horizontalSpacing="5sp"
+            android:scrollbars="none"
+            android:padding="5sp"
+            android:verticalSpacing="20sp"
+            android:numColumns="2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/gridViewSamPhamPL" />
+    </FrameLayout>
+
+
+</RelativeLayout>

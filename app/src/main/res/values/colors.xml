@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f7be2c</color>
+    <color name="colorPrimaryDark">#ffb938</color>
+    <color name="progress_start">#ffcc56</color>
+    <color name="progress_end">#fce135</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="colorAccent">#f4b700</color>
+    <color name="Tab_None">#434343</color>
+    <color name="Tab_Select">#ffffff</color>
+    <color name="DarkGray">#ddd</color>
+    <color name="clouds">#ffffff</color>
+</resources>

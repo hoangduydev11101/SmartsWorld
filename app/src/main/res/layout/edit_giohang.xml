@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:gravity="center"
+        android:id="@+id/edtNewSoLuong"
+        android:padding="10sp"
+        android:background="@drawable/shape_button"
+        android:layout_marginTop="10sp"
+        android:layout_gravity="center"
+        android:hint="Nhập số lượng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginBottom="25sp"
+        android:id="@+id/btnXacNhan"
+        android:textColor="#fff"
+        android:layout_marginTop="15sp"
+        android:background="#ffcc00"
+        android:text="Xác nhận"
+        android:layout_gravity="center"
+        android:layout_width="180sp"
+        android:layout_height="wrap_content" />
+</LinearLayout>

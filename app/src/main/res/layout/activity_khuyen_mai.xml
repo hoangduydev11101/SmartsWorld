@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_khuyen_mai"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lehoangduy.smartworld.Activity.KhuyenMaiActivity">
+
+    <GridView
+        android:scrollbars="none"
+        android:layout_marginTop="5sp"
+        android:gravity="center_horizontal"
+        android:id="@+id/gridViewSanPhamKM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="5dp"
+        android:numColumns="2"
+        android:padding="5sp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="30dp"/>
+</RelativeLayout>

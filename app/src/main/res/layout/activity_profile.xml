@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profile"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lehoangduy.smartworld.Activity.ProfileActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140sp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:background="@drawable/back_header"
+            android:layout_height="140sp" />
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/technology"
+            android:layout_width="85sp"
+            android:layout_height="85sp" />
+    </RelativeLayout>
+
+   <LinearLayout
+       android:paddingBottom="10sp"
+       android:layout_marginLeft="15sp"
+       android:layout_marginTop="20sp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <TextView
+           android:layout_width="wrap_content"
+           android:text="Khách hàng: "
+           android:textSize="20sp"
+           android:textStyle="bold"
+           android:textColor="#262626"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:id="@+id/txtHoTenKH"
+           android:textSize="20sp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+   </LinearLayout>
+
+    //line
+
+    <LinearLayout
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_width="match_parent"
+        android:background="@drawable/line_shape"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Số điện thoại: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#262626"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtSDTKhachHang"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_width="match_parent"
+        android:background="@drawable/line_shape"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:paddingBottom="10sp"
+        android:paddingTop="10sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Email: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#262626"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtEmailKhachHang"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_width="match_parent"
+        android:background="@drawable/line_shape"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Địa chỉ: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#262626"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtDiaChiKH"
+            android:layout_marginRight="20sp"
+
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        android:layout_width="match_parent"
+        android:background="@drawable/line_shape"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginRight="50sp"
+        android:layout_width="match_parent"
+        android:background="@drawable/line_shape"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giỏ hàng: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#262626"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtSoLuongSP"
+            android:text="@string/your_string"
+            android:layout_marginLeft="10sp"
+            android:textColor="#ffa600"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginLeft="10sp"
+            android:textColor="#262626"
+            android:text="sản phẩm"/>
+    </LinearLayout>
+
+    <Button
+        android:text="Thanh toán"
+        android:id="@+id/btnThanhToanKH"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginLeft="20sp"
+        android:background="#f4b837"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

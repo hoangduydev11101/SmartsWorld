@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/image"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:id="@+id/imgHinhDanhMuc"
+            />
+        <TextView
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ten San Pham"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:id="@+id/txtTenDanhMuc"
+            />
+    </LinearLayout>
+
+</LinearLayout>
